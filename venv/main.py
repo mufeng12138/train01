@@ -22,7 +22,7 @@ logging.basicConfig(filename = "my.log",
 
 url = r"http://home.baidu.com/contact.html"
 
-def main():
+def mf_email():
     # print("hello mf")
     driver = webdriver.Chrome()
     logging.info("open browser")
@@ -39,6 +39,10 @@ def main():
     for email in emails:
         print(email)
     # driver.close()
+
+
+def main():
+    mf_email()
 
 if __name__ == "__main__" :
     main()
