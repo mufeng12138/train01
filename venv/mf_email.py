@@ -2,17 +2,10 @@ from selenium import webdriver
 import re
 import logging
 
-# LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_FORMAT = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s'
 DATE_FORMAT = '%a, %d %b %Y %H:%M:%S'
-# DATE_FORMAT = "%m/%d/%Y  &H:%M:%S  %P"
-# logging.basicConfig(filename = "my.log",
-#                     level= logging.DEBUG,
-#                     format = LOG_FORMAT,
-#                     datefmt = DATE_FORMAT)
 
 logging.basicConfig(filename = r"log\my.log",
-                    # path = r"D:\py.test\train01\venv\log",
                     level = logging.INFO,
                     format = LOG_FORMAT,
                     datefmt = DATE_FORMAT)

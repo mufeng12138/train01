@@ -1,1 +1,16 @@
 Sat, 23 Nov 2019 14:35:21 mfemail.py[line:25] INFO open browser
+Mon, 25 Nov 2019 10:17:55 main.py[line:29] INFO open browser
+Mon, 25 Nov 2019 10:17:55 main.py[line:31] INFO input content:python
+Mon, 25 Nov 2019 10:17:55 main.py[line:33] INFO click
+Mon, 25 Nov 2019 10:18:00 main.py[line:35] INFO wait for 5 seconds
+Mon, 25 Nov 2019 10:18:57 main.py[line:29] INFO open browser
+Mon, 25 Nov 2019 10:18:57 main.py[line:31] INFO input content:python
+Mon, 25 Nov 2019 10:18:57 main.py[line:33] INFO click
+Mon, 25 Nov 2019 10:19:02 main.py[line:35] INFO wait for 5 seconds
+Mon, 25 Nov 2019 10:19:03 main.py[line:37] INFO close browser
+Mon, 25 Nov 2019 14:53:20 main.py[line:34] INFO open browser
+Mon, 25 Nov 2019 14:53:20 main.py[line:36] INFO input content:python
+Mon, 25 Nov 2019 14:53:20 main.py[line:38] INFO click
+Mon, 25 Nov 2019 14:53:25 main.py[line:40] INFO wait for 5 seconds
+Mon, 25 Nov 2019 14:53:26 main.py[line:42] INFO close browser
+Mon, 25 Nov 2019 14:53:26 main.py[line:43] INFO ===============================================
