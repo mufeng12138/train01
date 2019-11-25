@@ -5,43 +5,51 @@
 @file: main.py
 @time: 2019/11/25 11:08
 """
+import mf_log
+import test_case
+import mf_testtools
 
-from selenium import webdriver
-import base_page
-import search_page
-import time
-import logging
+# url = r"https://cn.bing.com"
+url = r"https://www.baidu.com"
 
-LOG_FORMAT = '%(asctime)s %(filename)s[line:%(lineno)d] ' \
-             '%(levelname)s %(message)s'
-DATE_FORMAT = '%a, %d %b %Y %H:%M:%S'
+def positive_search(driver):
+    mf_testtools.locate_id(driver, "su")
+    mf_testtools.tag_name(driver, "form")
+    mf_testtools.link_text(driver, "新闻")
+    mf_testtools.partial_link_text(driver, "主页")
+    mf_testtools.class_name(driver, "s_ipt")
+    mf_testtools.name(driver, "wd")
+    mf_testtools.css_selector(driver, "#su")
 
-logging.basicConfig(filename = r"log\my.log",
-                    level = logging.INFO,
-                    format = LOG_FORMAT,
-                    datefmt = DATE_FORMAT)
 
+def negative_search(driver):
+    mf_testtools.locate_id(driver, "1")
+    mf_testtools.tag_name(driver, "1")
+    mf_testtools.link_text(driver, "1")
+    mf_testtools.partial_link_text(driver, "1")
+    mf_testtools.class_name(driver, "1")
+    mf_testtools.name(driver, "1")
+    mf_testtools.css_selector(driver, "1")
 
 def main():
-    # url = r"https://cn.bing.com"
-    url = r"https://www.baidu.com"
-    driver = webdriver.Firefox()
-    mf_content = r"python"
-    mf_content2 = r"pycharm"
-    # dr = base_page.BasePage(driver, url)
-    dr2 = search_page.SearchPage(driver, url)
-    dr2.open()
-    logging.info("open browser")
-    dr2.search_content(mf_content)
-    logging.info("input content:{}".format(mf_content))
-    dr2.btn_click()
-    logging.info("click")
-    time.sleep(5)
-    logging.info("wait for 5 seconds")
-    driver.close()
-    logging.info("close browser")
-    logging.info("===============================================")
+    mf_log.log_init()
+    driver = mf_testtools.browser_init(url)
+    # test_case.test_case()
+    # mf_testtools.mf_email()
 
+    # positive_search(driver)
+    # negative_search(driver)
+    # mf_testtools.clear_keys(driver)
+    # mf_testtools.refresh(driver)
+
+    # driver.find_element_by_link_text("新闻").click()
+    # mf_testtools.get_url(driver)
+    # mf_testtools.get_title(driver)
+    # mf_testtools.fb_ward(driver)
+    mf_testtools.create_new_tab(driver)
+    mf_testtools.create_new_tab(driver)
+
+    mf_testtools.driver_close(driver)
 
 if __name__ == "__main__" :
     main()

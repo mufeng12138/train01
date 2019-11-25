@@ -14,3 +14,194 @@ Mon, 25 Nov 2019 14:53:20 main.py[line:38] INFO click
 Mon, 25 Nov 2019 14:53:25 main.py[line:40] INFO wait for 5 seconds
 Mon, 25 Nov 2019 14:53:26 main.py[line:42] INFO close browser
 Mon, 25 Nov 2019 14:53:26 main.py[line:43] INFO ===============================================
+Mon, 25 Nov 2019 18:29:33 test_case.py[line:24] INFO open browser
+Mon, 25 Nov 2019 18:29:33 test_case.py[line:26] INFO input content:python
+Mon, 25 Nov 2019 18:29:33 test_case.py[line:28] INFO click
+Mon, 25 Nov 2019 18:29:38 test_case.py[line:30] INFO wait for 5 seconds
+Mon, 25 Nov 2019 18:29:39 test_case.py[line:32] INFO close browser
+Mon, 25 Nov 2019 18:29:39 test_case.py[line:33] INFO ===============================================
+Mon, 25 Nov 2019 18:32:16 test_case.py[line:24] INFO open browser
+Mon, 25 Nov 2019 18:32:16 test_case.py[line:26] INFO input content:python
+Mon, 25 Nov 2019 18:32:16 test_case.py[line:28] INFO click
+Mon, 25 Nov 2019 18:32:21 test_case.py[line:30] INFO wait for 5 seconds
+Mon, 25 Nov 2019 18:32:22 test_case.py[line:32] INFO close browser
+Mon, 25 Nov 2019 18:32:22 test_case.py[line:33] INFO ===============================================
+Mon, 25 Nov 2019 18:36:58 mf_email.py[line:9] INFO open browser
+Mon, 25 Nov 2019 18:50:31 locate_id.py[line:19] INFO test pass: ID found
+Mon, 25 Nov 2019 18:51:50 locate_id.py[line:19] INFO test pass: ID found
+Mon, 25 Nov 2019 18:51:50 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 18:52:16 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:02:41 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:03:11 mf_testtools.py[line:45] INFO Exception found Message: Unable to locate element: [id="s"]
+
+Mon, 25 Nov 2019 19:03:12 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:04:02 mf_testtools.py[line:45] ERROR Exception found Message: Unable to locate element: [id="s"]
+
+Mon, 25 Nov 2019 19:04:03 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:09:38 mf_testtools.py[line:43] INFO test pass: ID found
+Mon, 25 Nov 2019 19:09:39 mf_init_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:22:10 mf_testtools.py[line:58] ERROR Message: Unable to locate element: from
+
+Mon, 25 Nov 2019 19:25:35 mf_testtools.py[line:60] ERROR Message: Unable to locate element: from
+
+Mon, 25 Nov 2019 19:26:24 mf_testtools.py[line:58] INFO test pass: tag name found
+Mon, 25 Nov 2019 19:31:59 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:35:00 mf_testtools.py[line:59] INFO test pass: tag name form found
+Mon, 25 Nov 2019 19:35:01 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:35:37 mf_testtools.py[line:59] INFO test pass: tag name form found
+Mon, 25 Nov 2019 19:35:38 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:36:57 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 19:36:58 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:39:47 mf_testtools.py[line:72] ERROR Message: Unable to locate element: form
+
+Mon, 25 Nov 2019 19:39:48 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:40:22 mf_testtools.py[line:70] INFO test pass: tag name "–¬Œ≈" found
+Mon, 25 Nov 2019 19:40:22 mf_log.py[line:20] INFO ================================================
+Mon, 25 Nov 2019 19:42:58 mf_testtools.py[line:70] INFO test pass: tag name "–¬Œ≈" found
+Mon, 25 Nov 2019 19:42:59 mf_log.py[line:22] INFO ================================================
+Mon, 25 Nov 2019 19:45:35 mf_testtools.py[line:70] INFO test pass: tag name "–¬Œ≈" found
+Mon, 25 Nov 2019 19:45:36 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:53:27 mf_testtools.py[line:70] INFO test pass: tag name "–¬Œ≈" found
+Mon, 25 Nov 2019 19:53:28 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:54:53 mf_testtools.py[line:70] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 19:54:54 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:55:38 mf_testtools.py[line:71] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 19:55:39 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:56:26 mf_testtools.py[line:71] INFO b'test pass: link text "\xe6\x96\xb0\xe9\x97\xbb" found'
+Mon, 25 Nov 2019 19:56:27 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:56:59 mf_testtools.py[line:71] INFO b'test pass: link text "\xe6\x96\xb0\xe9\x97\xbb" found'
+Mon, 25 Nov 2019 19:57:02 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 19:59:47 mf_testtools.py[line:73] ERROR unknown encoding: 
+Mon, 25 Nov 2019 19:59:48 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:01:17 mf_testtools.py[line:71] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 20:01:18 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:02:07 mf_testtools.py[line:71] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:02:08 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:05:38 mf_testtools.py[line:71] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 20:05:39 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:13:50 mf_testtools.py[line:71] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 20:13:52 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:14:17 mf_testtools.py[line:71] INFO test pass: link text "–¬Œ≈" found
+Mon, 25 Nov 2019 20:14:18 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:18:47 mf_testtools.py[line:71] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:18:49 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:44:13 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:44:13 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:45:09 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:45:32 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:45:32 mf_testtools.py[line:81] INFO test pass: link text "‰∏ªÈ°µ" found
+Mon, 25 Nov 2019 20:45:33 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:45:51 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:45:51 mf_testtools.py[line:81] INFO test pass: link text "‰∏ªÈ°µ" found
+Mon, 25 Nov 2019 20:45:52 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:47:58 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 20:47:58 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 20:47:58 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:47:58 mf_testtools.py[line:81] INFO test pass: link text "‰∏ªÈ°µ" found
+Mon, 25 Nov 2019 20:47:59 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:51:52 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 20:51:52 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 20:51:52 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:51:52 mf_testtools.py[line:82] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 20:51:52 mf_testtools.py[line:93] INFO test pass: element by partial link text "s_ipt" found 
+Mon, 25 Nov 2019 20:51:53 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:82] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:93] INFO test pass: element by class name "s_ipt" found 
+Mon, 25 Nov 2019 20:55:40 mf_testtools.py[line:104] INFO test pass: element by name "wd" found 
+Mon, 25 Nov 2019 20:55:41 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:82] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:93] INFO test pass: element by class name "s_ipt" found 
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:104] INFO test pass: element by name "wd" found 
+Mon, 25 Nov 2019 20:57:40 mf_testtools.py[line:115] INFO test pass: element by css_selector "#su" found 
+Mon, 25 Nov 2019 20:57:41 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:82] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:93] INFO test pass: element by class name "s_ipt" found 
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:104] INFO test pass: element by name "wd" found 
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:115] INFO test pass: element by css_selector "#su" found 
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:51] ERROR Message: Unable to locate element: [id="1"]
+
+Mon, 25 Nov 2019 21:02:29 mf_testtools.py[line:61] ERROR Message: Given css selector expression "1" is invalid: InvalidSelectorError: '1' is not a valid selector: "1"
+
+Mon, 25 Nov 2019 21:02:30 mf_testtools.py[line:72] ERROR Message: Unable to locate element: 1
+
+Mon, 25 Nov 2019 21:02:30 mf_testtools.py[line:82] INFO test pass: element by partial link text "1" found 
+Mon, 25 Nov 2019 21:02:30 mf_testtools.py[line:95] ERROR Message: Given css selector expression ".1" is invalid: InvalidSelectorError: '.1' is not a valid selector: ".1"
+
+Mon, 25 Nov 2019 21:02:30 mf_testtools.py[line:106] ERROR Message: Unable to locate element: [name="1"]
+
+Mon, 25 Nov 2019 21:02:30 mf_testtools.py[line:117] ERROR Message: Given css selector expression "1" is invalid: InvalidSelectorError: '1' is not a valid selector: "1"
+
+Mon, 25 Nov 2019 21:02:30 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:49] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:59] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:70] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:82] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:93] INFO test pass: element by class name "s_ipt" found 
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:104] INFO test pass: element by name "wd" found 
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:115] INFO test pass: element by css_selector "#su" found 
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:125] INFO test pass: clear successful
+Mon, 25 Nov 2019 21:09:11 mf_testtools.py[line:135] ERROR Object of type function is not JSON serializable
+Mon, 25 Nov 2019 21:09:12 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:09:51 mf_testtools.py[line:125] INFO test pass: clear successful
+Mon, 25 Nov 2019 21:09:52 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:10:36 mf_testtools.py[line:126] INFO test pass: clear successful
+Mon, 25 Nov 2019 21:10:39 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:10:56 mf_testtools.py[line:127] INFO test pass: clear successful
+Mon, 25 Nov 2019 21:10:59 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:14:08 mf_testtools.py[line:139] INFO test pass: refresh successful
+Mon, 25 Nov 2019 21:14:11 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:19:40 mf_testtools.py[line:147] INFO click button
+Mon, 25 Nov 2019 21:19:41 mf_testtools.py[line:151] INFO get back
+Mon, 25 Nov 2019 21:19:43 mf_testtools.py[line:155] INFO go forward
+Mon, 25 Nov 2019 21:19:44 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:36:18 mf_testtools.py[line:161] INFO get current_url:http://news.baidu.com/
+Mon, 25 Nov 2019 21:36:20 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:38:22 mf_testtools.py[line:161] INFO get current_url:http://news.baidu.com/
+Mon, 25 Nov 2019 21:39:19 mf_testtools.py[line:161] INFO get current_url:http://news.baidu.com/
+Mon, 25 Nov 2019 21:39:20 mf_testtools.py[line:168] INFO get title:ÁôæÂ∫¶Êñ∞Èóª‚Äî‚ÄîÊµ∑Èáè‰∏≠ÊñáËµÑËÆØÂπ≥Âè∞
+Mon, 25 Nov 2019 21:39:22 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:50] INFO test pass: ID "su" found
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:60] INFO test pass: tag name "form" found
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:71] INFO test pass: link text "Êñ∞Èóª" found
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:83] INFO test pass: element by partial link text "‰∏ªÈ°µ" found 
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:94] INFO test pass: element by class name "s_ipt" found 
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:105] INFO test pass: element by name "wd" found 
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:116] INFO test pass: element by css_selector "#su" found 
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:52] ERROR Message: Unable to locate element: [id="1"]
+
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:62] ERROR Message: Given css selector expression "1" is invalid: InvalidSelectorError: '1' is not a valid selector: "1"
+
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:73] ERROR Message: Unable to locate element: 1
+
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:83] INFO test pass: element by partial link text "1" found 
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:96] ERROR Message: Given css selector expression ".1" is invalid: InvalidSelectorError: '.1' is not a valid selector: ".1"
+
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:107] ERROR Message: Unable to locate element: [name="1"]
+
+Mon, 25 Nov 2019 21:42:09 mf_testtools.py[line:118] ERROR Message: Given css selector expression "1" is invalid: InvalidSelectorError: '1' is not a valid selector: "1"
+
+Mon, 25 Nov 2019 21:42:11 mf_testtools.py[line:127] INFO test pass: clear successful
+Mon, 25 Nov 2019 21:42:16 mf_testtools.py[line:139] INFO test pass: refresh successful
+Mon, 25 Nov 2019 21:42:21 mf_testtools.py[line:160] INFO get current_url:http://news.baidu.com/
+Mon, 25 Nov 2019 21:42:22 mf_testtools.py[line:167] INFO get title:ÁôæÂ∫¶Êñ∞Èóª‚Äî‚ÄîÊµ∑Èáè‰∏≠ÊñáËµÑËÆØÂπ≥Âè∞
+Mon, 25 Nov 2019 21:42:23 mf_testtools.py[line:150] INFO get back
+Mon, 25 Nov 2019 21:42:24 mf_testtools.py[line:154] INFO go forward
+Mon, 25 Nov 2019 21:42:26 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:47:00 mf_testtools.py[line:175] ERROR name 'Keys' is not defined
+Mon, 25 Nov 2019 21:47:01 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:50:59 mf_testtools.py[line:174] INFO create new tab
+Mon, 25 Nov 2019 21:51:00 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:51:30 mf_testtools.py[line:174] INFO create new tab
+Mon, 25 Nov 2019 21:51:35 mf_log.py[line:23] INFO ================================================
+Mon, 25 Nov 2019 21:52:10 mf_testtools.py[line:174] INFO create new tab
+Mon, 25 Nov 2019 21:52:12 mf_testtools.py[line:174] INFO create new tab
+Mon, 25 Nov 2019 21:52:15 mf_log.py[line:23] INFO ================================================
