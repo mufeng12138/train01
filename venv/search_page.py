@@ -1,10 +1,10 @@
 from selenium.webdriver.common.by import By
 # from PODemo.BasePage \
-import basePage
+import base_page
 #假设baidu.py、BasePage.py均在PODemo.BasePage目录下
 from selenium import webdriver
 
-class SearchPage(basePage.base_page):
+class SearchPage(base_page.BasePage):
     # 定位元素
     search_loc = (By.ID,"kw")
     btn_loc = (By.ID,"su")

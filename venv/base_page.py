@@ -1,11 +1,12 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
+# import time
 
 # BasePage封装所有页面都公用的方法，例如driver, Find_Element等
 # 实例化BasePage类时，最先执行的就是__init__方法，该方法的入参，其实就是BasePage类的入参。
 # __init__方法不能有返回值，只能返回None
-class base_page(object):
+class BasePage(object):
     def __init__(self,selenium_driver,base_url):
         self.driver = selenium_driver
         self.base_url = base_url
