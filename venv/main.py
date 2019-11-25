@@ -47,7 +47,7 @@ def main():
     # mf_testtools.get_title(driver)
     # mf_testtools.fb_ward(driver)
     mf_testtools.create_new_tab(driver)
-    mf_testtools.create_new_tab(driver)
+    mf_testtools.create_new_tab(driver) 
 
     mf_testtools.driver_close(driver)
 
