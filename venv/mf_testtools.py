@@ -168,13 +168,27 @@ def get_title(driver):
     logging.info('get title:{}'.format(driver.title))
     time.sleep(1)
 
-def create_new_tab(driver):
+def create_new_tab(driver, url):
     try:
-        driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
+        driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL, 'n')
+        driver.get(url)
         logging.info("create a new tab")
         time.sleep(2)
     except Exception as e:
         logging.error(e)
+
+def radio_button(driver):
+
+    try:
+        driver.find_element_by_xpath("//*[@id='u1']/a[7]").click()
+        time.sleep(1)
+        driver.find_element_by_xpath("//*[@name='memberPass']").click()
+        logging.info("select the radio")
+        time.sleep(2)
+    except Exception as e:
+        logging.error(e)
+
+
 
 def driver_close(driver):
     driver.quit()

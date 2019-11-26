@@ -8,8 +8,9 @@
 import mf_log
 import test_case
 import mf_testtools
+import logging
 
-# url = r"https://cn.bing.com"
+url_bing = r"https://cn.bing.com"
 url = r"https://www.baidu.com"
 
 def positive_search(driver):
@@ -20,7 +21,6 @@ def positive_search(driver):
     mf_testtools.class_name(driver, "s_ipt")
     mf_testtools.name(driver, "wd")
     mf_testtools.css_selector(driver, "#su")
-
 
 def negative_search(driver):
     mf_testtools.locate_id(driver, "1")
@@ -42,13 +42,20 @@ def main():
     # mf_testtools.clear_keys(driver)
     # mf_testtools.refresh(driver)
 
-    # driver.find_element_by_link_text("新闻").click()
+    driver.find_element_by_link_text("新闻").click()
+    assert u"新闻" in driver.title
+    logging.info("Assertion test pass.")
     # mf_testtools.get_url(driver)
     # mf_testtools.get_title(driver)
     # mf_testtools.fb_ward(driver)
-    mf_testtools.create_new_tab(driver)
-    mf_testtools.create_new_tab(driver) 
+    # block
+    mf_testtools.radio_button(driver)
 
+
+
+    # mf_testtools.create_new_tab(driver, url_bing)
+    # mf_testtools.create_new_tab(driver)
+    # mf_testtools.tag_name(driver, "body")
     mf_testtools.driver_close(driver)
 
 if __name__ == "__main__" :

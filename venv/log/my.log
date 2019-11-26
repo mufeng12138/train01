@@ -205,3 +205,50 @@ Mon, 25 Nov 2019 21:51:35 mf_log.py[line:23] INFO ==============================
 Mon, 25 Nov 2019 21:52:10 mf_testtools.py[line:174] INFO create new tab
 Mon, 25 Nov 2019 21:52:12 mf_testtools.py[line:174] INFO create new tab
 Mon, 25 Nov 2019 21:52:15 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 08:49:16 mf_testtools.py[line:174] INFO create a new tab
+Tue, 26 Nov 2019 08:49:18 mf_testtools.py[line:174] INFO create a new tab
+Tue, 26 Nov 2019 08:49:21 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 08:49:32 mf_testtools.py[line:174] INFO create a new tab
+Tue, 26 Nov 2019 08:49:34 mf_testtools.py[line:174] INFO create a new tab
+Tue, 26 Nov 2019 08:49:37 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 08:50:52 mf_testtools.py[line:175] INFO create a new tab
+Tue, 26 Nov 2019 08:50:57 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 08:51:37 mf_testtools.py[line:175] INFO create a new tab
+Tue, 26 Nov 2019 08:51:40 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:24:04 mf_testtools.py[line:176] INFO create a new tab
+Tue, 26 Nov 2019 09:24:07 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:26:19 mf_testtools.py[line:176] INFO create a new tab
+Tue, 26 Nov 2019 09:26:21 mf_testtools.py[line:61] INFO test pass: tag name "body" found
+Tue, 26 Nov 2019 09:26:36 mf_testtools.py[line:61] INFO test pass: tag name "body" found
+Tue, 26 Nov 2019 09:26:37 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:37:07 mf_testtools.py[line:128] INFO test pass: clear successful
+Tue, 26 Nov 2019 09:37:10 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:37:25 mf_testtools.py[line:128] INFO test pass: clear successful
+Tue, 26 Nov 2019 09:37:28 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:38:08 mf_testtools.py[line:128] INFO test pass: clear successful
+Tue, 26 Nov 2019 09:38:10 mf_testtools.py[line:175] INFO create a new tab
+Tue, 26 Nov 2019 09:38:14 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 09:38:27 mf_testtools.py[line:128] INFO test pass: clear successful
+Tue, 26 Nov 2019 09:38:30 mf_testtools.py[line:175] INFO create a new tab
+Tue, 26 Nov 2019 09:38:35 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 13:50:29 mf_testtools.py[line:128] INFO test pass: clear successful
+Tue, 26 Nov 2019 13:50:32 mf_testtools.py[line:175] INFO create a new tab
+Tue, 26 Nov 2019 13:50:35 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 14:38:46 mf_testtools.py[line:161] INFO get current_url:http://news.baidu.com/
+Tue, 26 Nov 2019 14:38:48 mf_testtools.py[line:168] INFO get title:百度新闻——海量中文资讯平台
+Tue, 26 Nov 2019 14:38:49 mf_testtools.py[line:151] INFO get back
+Tue, 26 Nov 2019 14:38:50 mf_testtools.py[line:155] INFO go forward
+Tue, 26 Nov 2019 14:38:51 mf_testtools.py[line:188] ERROR Message: Element <input id="news" name="tn" type="radio"> could not be scrolled into view
+
+Tue, 26 Nov 2019 14:38:54 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 14:49:46 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 14:50:02 mf_testtools.py[line:189] ERROR Message: Element <input id="TANGRAM__PSP_10__memberPass" class="pass-checkbox-input pass-checkbox-memberPass" name="memberPass" type="checkbox"> could not be scrolled into view
+
+Tue, 26 Nov 2019 14:50:03 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 14:50:52 mf_testtools.py[line:189] ERROR Message: Unable to locate element: //*[@id='u1']/a[7]
+
+Tue, 26 Nov 2019 14:50:55 mf_log.py[line:23] INFO ================================================
+Tue, 26 Nov 2019 16:17:06 main.py[line:47] INFO Assertion test pass.
+Tue, 26 Nov 2019 16:17:06 mf_testtools.py[line:189] ERROR Message: Unable to locate element: //*[@id='u1']/a[7]
+
+Tue, 26 Nov 2019 16:17:09 mf_log.py[line:23] INFO ================================================
