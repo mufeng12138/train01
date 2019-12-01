@@ -7,56 +7,59 @@
 """
 import mf_log
 import test_case
-import mf_testtools
+import mftools
 import logging
 
 url_bing = r"https://cn.bing.com"
 url = r"https://www.baidu.com"
 
 def positive_search(driver):
-    mf_testtools.locate_id(driver, "su")
-    mf_testtools.tag_name(driver, "form")
-    mf_testtools.link_text(driver, "新闻")
-    mf_testtools.partial_link_text(driver, "主页")
-    mf_testtools.class_name(driver, "s_ipt")
-    mf_testtools.name(driver, "wd")
-    mf_testtools.css_selector(driver, "#su")
+    mftools.locate_id(driver, "su")
+    mftools.tag_name(driver, "form")
+    mftools.link_text(driver, "新闻")
+    mftools.partial_link_text(driver, "主页")
+    mftools.class_name(driver, "s_ipt")
+    mftools.name(driver, "wd")
+    mftools.css_selector(driver, "#su")
 
 def negative_search(driver):
-    mf_testtools.locate_id(driver, "1")
-    mf_testtools.tag_name(driver, "1")
-    mf_testtools.link_text(driver, "1")
-    mf_testtools.partial_link_text(driver, "1")
-    mf_testtools.class_name(driver, "1")
-    mf_testtools.name(driver, "1")
-    mf_testtools.css_selector(driver, "1")
+    mftools.locate_id(driver, "1")
+    mftools.tag_name(driver, "1")
+    mftools.link_text(driver, "1")
+    mftools.partial_link_text(driver, "1")
+    mftools.class_name(driver, "1")
+    mftools.name(driver, "1")
+    mftools.css_selector(driver, "1")
 
 def main():
     mf_log.log_init()
-    driver = mf_testtools.browser_init(url)
+    driver = mftools.browser_init(url)
     # test_case.test_case()
-    # mf_testtools.mf_email()
+    # mftools.mf_email()
 
     # positive_search(driver)
     # negative_search(driver)
-    # mf_testtools.clear_keys(driver)
-    # mf_testtools.refresh(driver)
+    # mftools.clear_keys(driver)
+    # mftools.refresh(driver)
 
     driver.find_element_by_link_text("新闻").click()
-    assert u"新闻" in driver.title
-    logging.info("Assertion test pass.")
-    # mf_testtools.get_url(driver)
-    # mf_testtools.get_title(driver)
-    # mf_testtools.fb_ward(driver)
+    try:
+        assert "新闻" in driver.title
+        logging.info("Assertion test pass.")
+    except Exception as e:
+        logging.error(e)
+    # mftools.get_url(driver)
+    # mftools.get_title(driver)
+    # mftools.fb_ward(driver)
     # block
-    mf_testtools.radio_button(driver)
+    # mftools.radio_button(driver)# fail
 
 
 
-    # mf_testtools.create_new_tab(driver, url_bing)
-    # mf_testtools.create_new_tab(driver)
-    # mf_testtools.tag_name(driver, "body")
-    mf_testtools.driver_close(driver)
+    # mftools.create_new_tab(driver, url_bing)
+    # mftools.create_new_tab(driver)
+    # mftools.tag_name(driver, "body")
+    mftools.driver_close(driver)
 
 if __name__ == "__main__" :
     main()
