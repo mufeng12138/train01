@@ -1,3 +1,12 @@
+# encoding: utf-8
+
+"""
+@version: 3.7
+@author: mufeng
+@file: base_page.py
+@time: 2019/11/25 11:08
+"""
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC

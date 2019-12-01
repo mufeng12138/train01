@@ -1,3 +1,12 @@
+# encoding: utf-8
+
+"""
+@version: 3.7
+@author: mufeng
+@file: search_page.py
+@time: 2019/11/25 11:08
+"""
+
 from selenium.webdriver.common.by import By
 # from PODemo.BasePage \
 import base_page
@@ -5,8 +14,9 @@ import base_page
 from selenium import webdriver
 
 class SearchPage(base_page.BasePage):
-    # 定位元素
+    # 定位输入框元素
     search_loc = (By.ID,"kw")
+    # 定位“百度一下”按钮元素
     btn_loc = (By.ID,"su")
 
     def open(self):
